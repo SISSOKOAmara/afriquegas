@@ -145,8 +145,26 @@ a:focus {
 .slider_section .slider_box {
   display: flex;
   position: relative;
-  height: calc(100vh - 90px);
+  height: calc(110vh - 90px);
   background-image: url(../image/Photo\ \(3\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider_section  .BOX2 {
+  display: flex;
+  position: relative;
+  height: calc(110vh - 90px);
+  background-image: url(../image/Photo\ \(6\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider_section  .BOX3 {
+  display: flex;
+  position: relative;
+  height: calc(110vh - 90px);
+  background-image: url(../image/Photo\ \(2\).jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -391,7 +409,7 @@ a:focus {
   justify-content: center;
   align-items: center;
   background-size: cover;
-  width: 300px;
+  width: 390px;
   height: 490px;
   margin: 0 auto;
   z-index: 999;
@@ -408,7 +426,12 @@ a:focus {
 .security_section .security_img-box.i-box-3 {
   background-image: url(../image/Photo\ \(52\).png);
 }
-
+.security_section .security_img-box.i-box-4 {
+  background-image: url(../image/Photo\ \(2\).jpg);
+}
+.security_section .security_img-box.i-box-5 {
+  background-image: url(../image/Photo\ \(2\).jpg);
+}
 .security_section .security_img-box a {
   display: none;
   opacity: 0;
