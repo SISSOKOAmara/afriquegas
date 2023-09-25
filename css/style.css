@@ -154,7 +154,7 @@ a:focus {
 .slider_section  .BOX2 {
   display: flex;
   position: relative;
-  height: calc(110vh - 90px);
+  height: calc(110vh - 50px);
   background-image: url(../image/Photo\ \(6\).jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -607,9 +607,9 @@ a:focus {
   color: #fff;
 }
 
-.address_link-container {
+/* .address_link-container {
   display: block;
-}
+} */
 
 .address_link-container a {
   display: flex;
@@ -622,6 +622,9 @@ a:focus {
   margin-right: 10px;
 }
 
+.contact .contact2 .a {
+  display:flex;
+}
 .info_section .news_container h3,
 .info_section .address_container h3 {
   text-transform: uppercase;
