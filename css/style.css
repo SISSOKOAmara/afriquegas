@@ -64,6 +64,17 @@ a:focus {
   border: none;
 }
 
+/* Debut */
+/* ecran Phone */
+@media (max-width: 480px)
+{
+  .pageTitle {
+font-size: 30px;
+color: #f6bb08;
+  }
+}
+
+/* Fin */
 .navbar {
 }
 
@@ -72,7 +83,9 @@ a:focus {
 }
 
 .logo_box {
+  /* width: 80px; */
   width: 80px;
+  align-content: center;
 }
 
 .logo_box img {
@@ -154,7 +167,7 @@ a:focus {
 .slider_section  .BOX2 {
   display: flex;
   position: relative;
-  height: calc(110vh - 50px);
+  height: calc(110vh - 90px);
   background-image: url(../image/Photo\ \(6\).jpg);
   background-size: cover;
   background-repeat: no-repeat;
